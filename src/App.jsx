@@ -6,10 +6,10 @@ import CountryPage from './pages/CountryPage';
 const App = () => {
   return (
     <Routes>
-      {/* Route for main country list page */}
+      {/* route for main country list page */}
       <Route path="/" element={<Home />} />
 
-      {/* Route for detailed country view */}
+      {/* route for detailed country view */}
       <Route path="/country/:name" element={<CountryPage />} />
     </Routes>
   );
