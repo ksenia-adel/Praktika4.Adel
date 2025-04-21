@@ -6,7 +6,7 @@ const Search = ({ setSearch }) => (
     {/* text input for country name */}
     <Form.Control
       type="text"
-      placeholder="enter country name..."
+      placeholder="Enter country name..."
       onChange={(e) => setSearch(e.target.value)}
     />
   </Form>
