@@ -22,3 +22,9 @@ npm install
 ```bash
 npm run dev
 ```
+
+Features
+- View all countries in a responsive grid
+- Search countries by name
+- View detailed info about each country
+- Flag display and styled layout
